@@ -15,11 +15,11 @@ class BasicTest extends TestCase
           $response = $this->call('GET', '/posts');
           $this->assertEquals(200, $response->status());
      }
-
+     /*
      public function testGanteng()
      {
           $response = $this->call('PUT', '/posts/8', ['title' => 'Taylor']);
           $this->assertEquals(200, $response->status());
      }
-
+     */
 }
