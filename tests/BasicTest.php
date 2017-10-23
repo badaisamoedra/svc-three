@@ -6,8 +6,7 @@ class BasicTest extends TestCase
      {
           $this->json('POST', '/posts', ['title' => 'yance_kece', 'body' => 'payung rindu'])
           ->seeJson([
-               'title' => 'yance_kece',
-               'body' => 'payung rindu'
+               'title' => 'yance_kece'
           ]);
      }
 
